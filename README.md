@@ -10,20 +10,20 @@ pipeline.
 
 ## 🚀 Features
 
--   📥 **YouTube Transcript Extraction**\
+-   📥 **YouTube Transcript Extraction**
     Automatically fetches captions (English/Hindi supported) from any
     YouTube video.
 
--   ✂️ **Transcript Chunking**\
+-   ✂️ **Transcript Chunking**
     Uses `RecursiveCharacterTextSplitter` for optimal chunking.
 
--   🧠 **Vector Embeddings with FAISS**\
+-   🧠 **Vector Embeddings with FAISS**
     Stores embeddings using FAISS for fast semantic search.
 
--   🔍 **Context-Aware Retrieval**\
+-   🔍 **Context-Aware Retrieval**
     Retrieves the most relevant transcript chunks for user queries.
 
--   🤖 **LLM-Powered Responses**\
+-   🤖 **LLM-Powered Responses**
     Uses:
 
     -   **HuggingFace OpenRouter Model:** `moonshotai/Kimi-K2-Thinking`
@@ -140,10 +140,10 @@ streamlit run youtube_summarizer_app.py
 
 ## 🖥️ How to Use
 
-1.  Enter (optional) API keys in the sidebar\
-2.  Paste a YouTube URL\
-3.  Click **Process Video**\
-4.  Ask questions about the video transcript\
+1.  Enter (optional) API keys in the sidebar
+2.  Paste a YouTube URL
+3.  Click **Process Video**
+4.  Ask questions about the video transcript
 5.  Use suggested prompts for quick insights
 
 ------------------------------------------------------------------------
@@ -158,25 +158,28 @@ streamlit run youtube_summarizer_app.py
 
 ## 📘 Dependencies
 
-Installed via `requirements.txt`: - streamlit\
-- youtube-transcript-api\
-- langchain\
-- langchain-community\
-- langchain-openai\
-- faiss-cpu\
-- tiktoken\
+Installed via `requirements.txt`: - streamlit
+- youtube-transcript-api
+- langchain
+- langchain-community
+- langchain-openai
+- faiss-cpu
+- tiktoken
 - openai
 
 ------------------------------------------------------------------------
 
 ## 🙌 Acknowledgements
 
-This project uses: - **YouTube Transcript API** - **LangChain** -
-**FAISS** - **HuggingFace** - **OpenRouter**
-
+This project uses: 
+- **YouTube Transcript API** 
+- **LangChain** 
+- **FAISS** 
+- **HuggingFace** 
+- **OpenRouter**
 
 ------------------------------------------------------------------------
 
 ## 👨‍💻 Author
 
-**MOHAMMED ANAS IQBAL**\
+**MOHAMMED ANAS IQBAL**
