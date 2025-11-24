@@ -72,16 +72,11 @@ The agent answers **strictly from transcript context**.
 
 ## 🧰 Tech Stack
 
-  Component-------------Library
-  --------------------- ---------------------------------
-  UI--------------------Streamlit
-  Transcript Fetching---youtube-transcript-api
-  Text Splitting--------langchain-text-splitters
-  Embeddings------------langchain-openai
-  LLM-------------------ChatOpenAI (HuggingFace Router)
-  Vector DB-------------FAISS
-  RAG Framework---------LangChain
-  App Deployment--------Streamlit
+  Streamlit
+  youtube-transcript-api
+  ChatOpenAI (HuggingFace, OpenRouter)
+  FAISS
+  LangChain
 
 ------------------------------------------------------------------------
 
