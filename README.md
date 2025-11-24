@@ -61,9 +61,9 @@ Chunks transcript into manageable pieces:
 
 ### 4. **RAG Pipeline**
 
-A LangChain pipeline built from: - Retriever\
-- Prompt Template\
-- ChatOpenAI LLM\
+A LangChain pipeline built from: - Retriever
+- Prompt Template
+- ChatOpenAI LLM
 - Output Parser
 
 The agent answers **strictly from transcript context**.
@@ -72,16 +72,16 @@ The agent answers **strictly from transcript context**.
 
 ## 🧰 Tech Stack
 
-  Component             Library
+  Component-------------Library
   --------------------- ---------------------------------
-  UI                    Streamlit
-  Transcript Fetching   youtube-transcript-api
-  Text Splitting        langchain-text-splitters
-  Embeddings            langchain-openai
-  LLM                   ChatOpenAI (HuggingFace Router)
-  Vector DB             FAISS
-  RAG Framework         LangChain
-  App Deployment        Streamlit
+  UI--------------------Streamlit
+  Transcript Fetching---youtube-transcript-api
+  Text Splitting--------langchain-text-splitters
+  Embeddings------------langchain-openai
+  LLM-------------------ChatOpenAI (HuggingFace Router)
+  Vector DB-------------FAISS
+  RAG Framework---------LangChain
+  App Deployment--------Streamlit
 
 ------------------------------------------------------------------------
 
