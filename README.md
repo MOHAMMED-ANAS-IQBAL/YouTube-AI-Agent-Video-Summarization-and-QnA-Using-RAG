@@ -72,11 +72,12 @@ The agent answers **strictly from transcript context**.
 
 ## 🧰 Tech Stack
 
-  Streamlit
-  youtube-transcript-api
-  ChatOpenAI (HuggingFace, OpenRouter)
-  FAISS
-  LangChain
+  - Streamlit
+  - youtube-transcript-api
+  - ChatOpenAI (HuggingFace, OpenRouter)
+  - FAISS
+  - LangChain
+  
 
 ------------------------------------------------------------------------
 
@@ -153,7 +154,8 @@ streamlit run youtube_summarizer_app.py
 
 ## 📘 Dependencies
 
-Installed via `requirements.txt`: - streamlit
+Installed via `requirements.txt`: 
+- streamlit
 - youtube-transcript-api
 - langchain
 - langchain-community
